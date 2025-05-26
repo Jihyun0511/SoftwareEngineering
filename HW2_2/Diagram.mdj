@@ -1986,7 +1986,7 @@
 													},
 													"font": "Arial;13;0",
 													"parentStyle": true,
-													"left": 144.72998046875,
+													"left": 144.45703125,
 													"top": 77,
 													"width": 52,
 													"height": 13,
@@ -2002,7 +2002,7 @@
 													"parentStyle": true,
 													"left": 125,
 													"top": 77,
-													"width": 13.72998046875,
+													"width": 13.45703125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -2415,7 +2415,7 @@
 											"parentStyle": true,
 											"left": 61,
 											"top": 405,
-											"width": 447.17041015625,
+											"width": 456.79345703125,
 											"height": 13,
 											"text": "«control»"
 										},
@@ -2429,7 +2429,7 @@
 											"parentStyle": true,
 											"left": 61,
 											"top": 420,
-											"width": 447.17041015625,
+											"width": 456.79345703125,
 											"height": 13,
 											"text": "RegistrationController"
 										},
@@ -2467,7 +2467,7 @@
 									"parentStyle": true,
 									"left": 56,
 									"top": 400,
-									"width": 457.17041015625,
+									"width": 466.79345703125,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXC5hZia4ptP8="
@@ -2495,7 +2495,7 @@
 									"parentStyle": true,
 									"left": 56,
 									"top": 438,
-									"width": 457.17041015625,
+									"width": 466.79345703125,
 									"height": 10
 								},
 								{
@@ -2521,7 +2521,7 @@
 											"parentStyle": true,
 											"left": 61,
 											"top": 453,
-											"width": 447.17041015625,
+											"width": 456.79345703125,
 											"height": 13,
 											"text": "+signUp(accountID: String, password: String, phoneNumber: String): Member",
 											"horizontalAlignment": 0
@@ -2531,7 +2531,7 @@
 									"parentStyle": true,
 									"left": 56,
 									"top": 448,
-									"width": 457.17041015625,
+									"width": 466.79345703125,
 									"height": 23
 								},
 								{
@@ -2574,7 +2574,7 @@
 							"containerChangeable": true,
 							"left": 56,
 							"top": 400,
-							"width": 456.17041015625,
+							"width": 465.79345703125,
 							"height": 71,
 							"nameCompartment": {
 								"$ref": "AAAAAAGXC5hZia4oiDs="
@@ -2865,7 +2865,7 @@
 											"parentStyle": true,
 											"left": 1205,
 											"top": 405,
-											"width": 154.10546875,
+											"width": 154.25146484375,
 											"height": 13,
 											"text": "«control»"
 										},
@@ -2879,7 +2879,7 @@
 											"parentStyle": true,
 											"left": 1205,
 											"top": 420,
-											"width": 154.10546875,
+											"width": 154.25146484375,
 											"height": 13,
 											"text": "AuthenticationController"
 										},
@@ -2917,7 +2917,7 @@
 									"parentStyle": true,
 									"left": 1200,
 									"top": 400,
-									"width": 164.10546875,
+									"width": 164.25146484375,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXC5h1Pa54Swo="
@@ -2945,7 +2945,7 @@
 									"parentStyle": true,
 									"left": 1200,
 									"top": 438,
-									"width": 164.10546875,
+									"width": 164.25146484375,
 									"height": 10
 								},
 								{
@@ -2961,7 +2961,7 @@
 									"parentStyle": true,
 									"left": 1200,
 									"top": 448,
-									"width": 164.10546875,
+									"width": 164.25146484375,
 									"height": 10
 								},
 								{
@@ -3004,7 +3004,7 @@
 							"containerChangeable": true,
 							"left": 1200,
 							"top": 400,
-							"width": 163.10546875,
+							"width": 163.25146484375,
 							"height": 58,
 							"nameCompartment": {
 								"$ref": "AAAAAAGXC5h1Pa53A5Y="
@@ -3052,7 +3052,7 @@
 											"parentStyle": true,
 											"left": 205,
 											"top": 573,
-											"width": 46.53173828125,
+											"width": 47.40771484375,
 											"height": 13,
 											"text": "«entity»"
 										},
@@ -3066,7 +3066,7 @@
 											"parentStyle": true,
 											"left": 205,
 											"top": 588,
-											"width": 46.53173828125,
+											"width": 47.40771484375,
 											"height": 13,
 											"text": "User"
 										},
@@ -3104,7 +3104,7 @@
 									"parentStyle": true,
 									"left": 200,
 									"top": 568,
-									"width": 56.53173828125,
+									"width": 57.40771484375,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXC5igpK6juKU="
@@ -3132,7 +3132,7 @@
 									"parentStyle": true,
 									"left": 200,
 									"top": 606,
-									"width": 56.53173828125,
+									"width": 57.40771484375,
 									"height": 10
 								},
 								{
@@ -3148,7 +3148,7 @@
 									"parentStyle": true,
 									"left": 200,
 									"top": 616,
-									"width": 56.53173828125,
+									"width": 57.40771484375,
 									"height": 10
 								},
 								{
@@ -3191,7 +3191,7 @@
 							"containerChangeable": true,
 							"left": 200,
 							"top": 568,
-							"width": 55.53173828125,
+							"width": 56.40771484375,
 							"height": 58,
 							"nameCompartment": {
 								"$ref": "AAAAAAGXC5igpK6ivPY="
@@ -3239,7 +3239,7 @@
 											"parentStyle": true,
 											"left": 93,
 											"top": 693,
-											"width": 46.53173828125,
+											"width": 47.40771484375,
 											"height": 13,
 											"text": "«entity»"
 										},
@@ -3253,7 +3253,7 @@
 											"parentStyle": true,
 											"left": 93,
 											"top": 708,
-											"width": 46.53173828125,
+											"width": 47.40771484375,
 											"height": 13,
 											"text": "Admin"
 										},
@@ -3291,7 +3291,7 @@
 									"parentStyle": true,
 									"left": 88,
 									"top": 688,
-									"width": 56.53173828125,
+									"width": 57.40771484375,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXC5i8T67Le3E="
@@ -3319,7 +3319,7 @@
 									"parentStyle": true,
 									"left": 88,
 									"top": 726,
-									"width": 56.53173828125,
+									"width": 57.40771484375,
 									"height": 10
 								},
 								{
@@ -3335,7 +3335,7 @@
 									"parentStyle": true,
 									"left": 88,
 									"top": 736,
-									"width": 56.53173828125,
+									"width": 57.40771484375,
 									"height": 10
 								},
 								{
@@ -3378,7 +3378,7 @@
 							"containerChangeable": true,
 							"left": 88,
 							"top": 688,
-							"width": 55.53173828125,
+							"width": 56.40771484375,
 							"height": 58,
 							"nameCompartment": {
 								"$ref": "AAAAAAGXC5i8T67KgnM="
@@ -3426,7 +3426,7 @@
 											"parentStyle": true,
 											"left": 277,
 											"top": 693,
-											"width": 50.84814453125,
+											"width": 53.09521484375,
 											"height": 13,
 											"text": "«entity»"
 										},
@@ -3440,7 +3440,7 @@
 											"parentStyle": true,
 											"left": 277,
 											"top": 708,
-											"width": 50.84814453125,
+											"width": 53.09521484375,
 											"height": 13,
 											"text": "Member"
 										},
@@ -3478,7 +3478,7 @@
 									"parentStyle": true,
 									"left": 272,
 									"top": 688,
-									"width": 60.84814453125,
+									"width": 63.09521484375,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXC5jTHq7zsSo="
@@ -3506,7 +3506,7 @@
 									"parentStyle": true,
 									"left": 272,
 									"top": 726,
-									"width": 60.84814453125,
+									"width": 63.09521484375,
 									"height": 10
 								},
 								{
@@ -3522,7 +3522,7 @@
 									"parentStyle": true,
 									"left": 272,
 									"top": 736,
-									"width": 60.84814453125,
+									"width": 63.09521484375,
 									"height": 10
 								},
 								{
@@ -3565,7 +3565,7 @@
 							"containerChangeable": true,
 							"left": 272,
 							"top": 688,
-							"width": 59.84814453125,
+							"width": 62.09521484375,
 							"height": 58,
 							"nameCompartment": {
 								"$ref": "AAAAAAGXC5jTHq7y5Bw="
@@ -3613,7 +3613,7 @@
 											"parentStyle": true,
 											"left": 277,
 											"top": 861,
-											"width": 46.53173828125,
+											"width": 47.40771484375,
 											"height": 13,
 											"text": "«entity»"
 										},
@@ -3627,7 +3627,7 @@
 											"parentStyle": true,
 											"left": 277,
 											"top": 876,
-											"width": 46.53173828125,
+											"width": 47.40771484375,
 											"height": 13,
 											"text": "Bicycle"
 										},
@@ -3665,7 +3665,7 @@
 									"parentStyle": true,
 									"left": 272,
 									"top": 856,
-									"width": 56.53173828125,
+									"width": 57.40771484375,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXC5jweK8dNz4="
@@ -3693,7 +3693,7 @@
 									"parentStyle": true,
 									"left": 272,
 									"top": 894,
-									"width": 56.53173828125,
+									"width": 57.40771484375,
 									"height": 10
 								},
 								{
@@ -3709,7 +3709,7 @@
 									"parentStyle": true,
 									"left": 272,
 									"top": 904,
-									"width": 56.53173828125,
+									"width": 57.40771484375,
 									"height": 10
 								},
 								{
@@ -3752,7 +3752,7 @@
 							"containerChangeable": true,
 							"left": 272,
 							"top": 856,
-							"width": 55.53173828125,
+							"width": 56.40771484375,
 							"height": 58,
 							"nameCompartment": {
 								"$ref": "AAAAAAGXC5jweK8cJAM="
@@ -3800,7 +3800,7 @@
 											"parentStyle": true,
 											"left": 661,
 											"top": 669,
-											"width": 118.7490234375,
+											"width": 119.7900390625,
 											"height": 13,
 											"text": "«collection»"
 										},
@@ -3814,7 +3814,7 @@
 											"parentStyle": true,
 											"left": 661,
 											"top": 684,
-											"width": 118.7490234375,
+											"width": 119.7900390625,
 											"height": 13,
 											"text": "MemberRepository"
 										},
@@ -3852,7 +3852,7 @@
 									"parentStyle": true,
 									"left": 656,
 									"top": 664,
-									"width": 128.7490234375,
+									"width": 129.7900390625,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXC5kBBa9F008="
@@ -3880,7 +3880,7 @@
 									"parentStyle": true,
 									"left": 656,
 									"top": 702,
-									"width": 128.7490234375,
+									"width": 129.7900390625,
 									"height": 10
 								},
 								{
@@ -3896,7 +3896,7 @@
 									"parentStyle": true,
 									"left": 656,
 									"top": 712,
-									"width": 128.7490234375,
+									"width": 129.7900390625,
 									"height": 10
 								},
 								{
@@ -3939,7 +3939,7 @@
 							"containerChangeable": true,
 							"left": 656,
 							"top": 664,
-							"width": 127.7490234375,
+							"width": 128.7900390625,
 							"height": 58,
 							"nameCompartment": {
 								"$ref": "AAAAAAGXC5kBBa9Eqrc="
