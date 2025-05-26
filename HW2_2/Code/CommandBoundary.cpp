@@ -22,12 +22,13 @@ void CommandBoundary::processCommands(const std::string& inputFilePath,
 
     std::shared_ptr<User> currentUser = nullptr;
 
-    int menu1, menu2;
-    bool isExit = false;
+    int menu1, menu2; //메뉴
+    bool isExit = false; //종료용 변수
 
+    //파일 입력을 계속 받는다
     while (!isExit && (in >> menu1 >> menu2)) {
         switch (menu1) {
-        case 1:
+        case 1: //회원가입
             if (menu2 == 1) {
                 std::string id, pwd, phone;
                 in >> id >> pwd >> phone;
@@ -37,15 +38,15 @@ void CommandBoundary::processCommands(const std::string& inputFilePath,
             }
             break;
 
-        case 2:
-            if (menu2 == 1) {
+        case 2: //로그인, 로그아웃
+            if (menu2 == 1) { //로그인
                 std::string id, pwd;
                 in >> id >> pwd;
                 currentUser = authCtrl.login(id, pwd);
                 out << "2.1.로그인" << std::endl;
                 out << "> " << id << " " << pwd << std::endl << std::endl;
             }
-            else if (menu2 == 2) {
+            else if (menu2 == 2) { //로그아웃
                 authCtrl.logout();
                 out << "2.2.로그아웃" << std::endl;
                 if (currentUser) {
@@ -56,7 +57,7 @@ void CommandBoundary::processCommands(const std::string& inputFilePath,
             }
             break;
 
-        case 3:
+        case 3: //자전거 등록
             if (menu2 == 1) {
                 std::string bid, model;
                 in >> bid >> model;
@@ -66,7 +67,7 @@ void CommandBoundary::processCommands(const std::string& inputFilePath,
             }
             break;
 
-        case 4:
+        case 4: //자전거 대여
             if (menu2 == 1) {
                 std::string bid;
                 in >> bid;
@@ -80,7 +81,7 @@ void CommandBoundary::processCommands(const std::string& inputFilePath,
             }
             break;
 
-        case 5:
+        case 5: //자전거 대여 목록 조회
             if (menu2 == 1) {
                 out << "5.1.자전거 대여 리스트" << std::endl;
                 auto memberPtr = std::dynamic_pointer_cast<Member>(currentUser);
@@ -91,7 +92,7 @@ void CommandBoundary::processCommands(const std::string& inputFilePath,
             }
             break;
 
-        case 6:
+        case 6: //종료
             if (menu2 == 1) {
                 out << "6.1.종료" << std::endl;
                 isExit = true;

@@ -19,10 +19,12 @@ Member::Member(const std::string& id, const std::string& pwd, const std::string&
     : User(id, pwd), phoneNumber(phone) {
 }
 
+//대여 자전거 추가
 void Member::addRentedBicycle(const std::shared_ptr<Bicycle>& bike) {
     rentedBicycles.push_back(bike);
 }
 
+//대여한 자전거 목록 조회
 const std::vector<std::shared_ptr<Bicycle>>& Member::getRentedBicycles() const {
     return rentedBicycles;
 }
