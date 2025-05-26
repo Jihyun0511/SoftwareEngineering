@@ -1966,7 +1966,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGXBx8Pusied5A="
 									},
-									"name": "회원가입",
+									"name": "자전거 대여",
 									"ownedViews": [
 										{
 											"_type": "UMLFrameView",
@@ -1986,11 +1986,11 @@
 													},
 													"font": "Arial;13;0",
 													"parentStyle": true,
-													"left": 144.45703125,
+													"left": 144.72998046875,
 													"top": 77,
-													"width": 52,
+													"width": 68.61181640625,
 													"height": 13,
-													"text": "회원가입"
+													"text": "자전거 대여"
 												},
 												{
 													"_type": "LabelView",
@@ -2002,7 +2002,7 @@
 													"parentStyle": true,
 													"left": 125,
 													"top": 77,
-													"width": 13.45703125,
+													"width": 13.72998046875,
 													"height": 13,
 													"text": "sd"
 												}
@@ -2019,152 +2019,10 @@
 											"frameTypeLabel": {
 												"$ref": "AAAAAAGXBx8Pusii1Ds="
 											}
-										},
-										{
-											"_type": "UMLCommLifelineView",
-											"_id": "AAAAAAGXByHX1sjwF1w=",
-											"_parent": {
-												"$ref": "AAAAAAGXBx8PusifhU4="
-											},
-											"model": {
-												"$ref": "AAAAAAGXByHX1sjvOBw="
-											},
-											"subViews": [
-												{
-													"_type": "UMLNameCompartmentView",
-													"_id": "AAAAAAGXByHX1sjxcBE=",
-													"_parent": {
-														"$ref": "AAAAAAGXByHX1sjwF1w="
-													},
-													"model": {
-														"$ref": "AAAAAAGXByHX1sjvOBw="
-													},
-													"subViews": [
-														{
-															"_type": "LabelView",
-															"_id": "AAAAAAGXByHX1sjyhGk=",
-															"_parent": {
-																"$ref": "AAAAAAGXByHX1sjxcBE="
-															},
-															"visible": false,
-															"font": "Arial;13;0",
-															"parentStyle": true,
-															"left": -172,
-															"top": -164,
-															"height": 13
-														},
-														{
-															"_type": "LabelView",
-															"_id": "AAAAAAGXByHX1sjzCkI=",
-															"_parent": {
-																"$ref": "AAAAAAGXByHX1sjxcBE="
-															},
-															"font": "Arial;13;1",
-															"parentStyle": true,
-															"left": 181,
-															"top": 175,
-															"width": 95,
-															"height": 13,
-															"text": ": Non-User"
-														},
-														{
-															"_type": "LabelView",
-															"_id": "AAAAAAGXByHX1sj0hoA=",
-															"_parent": {
-																"$ref": "AAAAAAGXByHX1sjxcBE="
-															},
-															"visible": false,
-															"font": "Arial;13;0",
-															"parentStyle": true,
-															"left": -172,
-															"top": -164,
-															"width": 110.24609375,
-															"height": 13,
-															"text": "(from Interaction1)"
-														},
-														{
-															"_type": "LabelView",
-															"_id": "AAAAAAGXByHX1sj1OEE=",
-															"_parent": {
-																"$ref": "AAAAAAGXByHX1sjxcBE="
-															},
-															"visible": false,
-															"font": "Arial;13;0",
-															"parentStyle": true,
-															"left": -172,
-															"top": -164,
-															"height": 13,
-															"horizontalAlignment": 1
-														}
-													],
-													"font": "Arial;13;0",
-													"parentStyle": true,
-													"left": 176,
-													"top": 168,
-													"width": 105,
-													"height": 25,
-													"stereotypeLabel": {
-														"$ref": "AAAAAAGXByHX1sjyhGk="
-													},
-													"nameLabel": {
-														"$ref": "AAAAAAGXByHX1sjzCkI="
-													},
-													"namespaceLabel": {
-														"$ref": "AAAAAAGXByHX1sj0hoA="
-													},
-													"propertyLabel": {
-														"$ref": "AAAAAAGXByHX1sj1OEE="
-													}
-												}
-											],
-											"font": "Arial;13;0",
-											"parentStyle": false,
-											"left": 176,
-											"top": 144,
-											"width": 104,
-											"height": 49,
-											"stereotypeDisplay": "icon",
-											"nameCompartment": {
-												"$ref": "AAAAAAGXByHX1sjxcBE="
-											}
 										}
 									]
 								}
-							],
-							"participants": [
-								{
-									"_type": "UMLLifeline",
-									"_id": "AAAAAAGXByHX1sjvOBw=",
-									"_parent": {
-										"$ref": "AAAAAAGXBx8Pusied5A="
-									},
-									"represent": {
-										"$ref": "AAAAAAGXByHX1sjurl0="
-									},
-									"isMultiInstance": false
-								}
 							]
-						},
-						{
-							"_type": "UMLActor",
-							"_id": "AAAAAAGXByHNF8jrU4k=",
-							"_parent": {
-								"$ref": "AAAAAAGXBx8PusidpLk="
-							},
-							"name": "Non-User"
-						}
-					],
-					"attributes": [
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAGXByHX1sjurl0=",
-							"_parent": {
-								"$ref": "AAAAAAGXBx8PusidpLk="
-							},
-							"name": "Role1",
-							"type": {
-								"$ref": "AAAAAAGXByHNF8jrU4k="
-							}
 						}
 					]
 				}
@@ -7459,7 +7317,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGXC4gFu6uMync="
 					},
-					"name": "CommanBoundary",
+					"name": "CommandBoundary",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
